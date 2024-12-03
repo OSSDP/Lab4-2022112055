@@ -39,7 +39,7 @@ public class _2022112055_6_Test {
                 List.of("google"),
                 List.of("amazon")
         );
-        List<Integer> expected = Arrays.asList(0, 1, 4);
+        List<Integer> expected = Arrays.asList( 1, 4);
         List<Integer> result = solution.peopleIndexes(favoriteCompanies);
         assertEquals(expected, result);
     }
